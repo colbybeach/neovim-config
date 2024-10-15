@@ -1,6 +1,7 @@
 require("lazy").setup({
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   "tpope/vim-commentary",
+  "loctvl842/monokai-pro.nvim",
   "mattn/emmet-vim",
   "nvim-tree/nvim-tree.lua",
   "nvim-tree/nvim-web-devicons",
@@ -34,7 +35,8 @@ require("lazy").setup({
     run = "cd app && npm install",
   },
   {
-    "nvim-telescope/telescope.nvim", tag = "0.1.4",
+    "nvim-telescope/telescope.nvim",
+    tag = "0.1.4",
     dependencies = { "nvim-lua/plenary.nvim" }
   },
 })
