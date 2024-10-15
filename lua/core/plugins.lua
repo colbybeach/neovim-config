@@ -1,5 +1,4 @@
 require("lazy").setup({
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
   "tpope/vim-commentary",
   "loctvl842/monokai-pro.nvim",
   "mattn/emmet-vim",
