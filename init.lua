@@ -15,6 +15,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
+vim.api.nvim_set_option("clipboard", "unnamed")
+
+
 require("core.options")
 require("core.keymaps")
 require("core.plugins")
